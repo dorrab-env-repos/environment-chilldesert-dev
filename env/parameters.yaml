@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:chilldesert/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:chilldesert/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:chilldesert/prow:hmacToken
+segmentWriteKey: vault:chilldesert:segmentWriteKey
